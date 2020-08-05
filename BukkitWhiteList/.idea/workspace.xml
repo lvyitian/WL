@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BukkitWhiteList:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="574b876c-f2d0-4f4a-8dd5-bcf9b3be3b85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/BukkitWhiteList_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/akarin_1_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BukkitWhiteList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BukkitWhiteList_jar/BukkitWhiteList.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/META-INF/BukkitWhiteList.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/WhiteListPlugin$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/WhiteListPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/Reflection$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/Reflection$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/Reflection$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/Reflection$ConstructorInvoker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/Reflection$FieldAccessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/Reflection$MethodInvoker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/Reflection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/TinyProtocol$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/TinyProtocol$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/TinyProtocol$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/TinyProtocol$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/TinyProtocol$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/TinyProtocol$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/TinyProtocol$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/TinyProtocol$PacketInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/TinyProtocol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/commands/Add.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/commands/DedicatedMethods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/commands/IChildCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/commands/Import.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/commands/List.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/commands/NoNameRemove.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/commands/QBan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/commands/QRemove.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/commands/Reload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/commands/Remove.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/config/IConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/config/SimpleConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/config/struct/WhiteListConfig$WLPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/config/struct/WhiteListConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/gui/IGUIWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/gui/ItemBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/gui/WhiteListGUI$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/gui/WhiteListGUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/listeners/PlayerListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/util/CommandUtil$ArgumentUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/util/CommandUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/util/EventUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/util/ItemUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/util/ListUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/util/ListUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/util/PlayerUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/util/TabUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/util/VectorUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BukkitWhiteList/top/dsbbs2/whitelist/util/VectorUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/common/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/common/JVMUnsafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/common/file/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/common/lambda/FinallyCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/common/lambda/IAdvancedRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/common/lambda/IGenericAdvancedRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/common/lambda/INoReturnAdvancedRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/common/lambda/INoReturnGenericAdvancedRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/common/lambda/INoThrowsRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/common/lambda/IThrowsRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/WhiteListPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/Reflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/TinyProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Confirm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/DedicatedMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Get.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/IChildCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Import.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/NoNameRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/QBan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/QRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Reload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Remove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/IConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/MojangJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/MojangJsonList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/SimpleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/struct/UUIDJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/struct/WhiteListConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/gui/IGUIWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/gui/ItemBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/gui/WhiteListGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/listeners/PlayerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/BanUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/CommandUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/EventUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/ItemUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/ListUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/MojangUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/MsgUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/PlayerUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/ServerUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/TabUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/UrlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/VectorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/.idea/artifacts/Cola_Core_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/.idea/libraries/Cola_Core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/.idea/libraries/PlaceholderAPI_2_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/.idea/libraries/akarin_1_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/Cola-Core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/artifacts/Cola_Core_jar/Cola-Core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Config/IConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Config/SimpleConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Gsons/ClearConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Gsons/CraftBookAndPenConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Gsons/IronManConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Gsons/Ispawn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Gsons/PlayerInventoryData$PlayerInvD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Gsons/PlayerInventoryData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Gsons/PlayerJoinServerData$PlayerInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Gsons/PlayerJoinServerData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Gsons/PlayerTprCommandUse$PlayerTpr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Gsons/PlayerTprCommandUse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Gsons/WeHomes$PlayerHomeData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Gsons/WeHomes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Gsons/WePositions$Positions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/Gsons/WePositions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/commands/CI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/commands/FlySpeed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/commands/Help.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/commands/ICommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/commands/Reload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/commands/Time.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/commands/Wc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/listeners/BlockListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/listeners/EntityListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/listeners/PlayerListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/listeners/WorldListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/ItsMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Afk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Back.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/DelHome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/DelPos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Fire.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Fly.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Gm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Hat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Home.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Inv$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Inv.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/OFire.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/OneStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/PlayCMD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Pos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/SetHome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/SetPos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/SetSpawn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Spawn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Thunder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Tpa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Tpaccept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Tpadeny.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Tpahere.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Tpr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Vanish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/WhoIP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/main/mainCommands/Whois.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/ClearUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/CommandUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/FileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/HelpComUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/HomeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/ListUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/ListUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/NumberUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/PIDUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/PIDUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/PlayerJoinServerDataUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/PlayerUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/PosUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/TPRUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/TabUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/TeleportUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/TpaComUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/VectorUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/VectorUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/util/WorldUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/out/production/Cola-Core/top/whitecola/wrapper/TpRequestWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/Config/IConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/Config/SimpleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/Gsons/ClearConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/Gsons/CraftBookAndPenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/Gsons/IronManConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/Gsons/Ispawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/Gsons/PlayerInventoryData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/Gsons/PlayerJoinServerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/Gsons/PlayerTprCommandUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/Gsons/WeHomes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/Gsons/WePositions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/commands/CI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/commands/FlySpeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/commands/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/commands/ICommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/commands/Reload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/commands/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/commands/Wc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/listeners/BlockListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/listeners/EntityListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/listeners/PlayerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/listeners/WorldListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/ItsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Afk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Back.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/DelHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/DelPos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Fire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Fly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Gm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Hat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Inv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/OFire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/OneStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/PlayCMD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Pos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/SetHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/SetPos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/SetSpawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Spawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Thunder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Tpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Tpaccept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Tpadeny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Tpahere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Tpr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Vanish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/WhoIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/main/mainCommands/Whois.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/ClearUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/CommandUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/HelpComUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/HomeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/ListUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/NumberUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/PIDUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/PlayerJoinServerDataUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/PlayerUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/PosUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/TPRUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/TabUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/TeleportUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/TpaComUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/VectorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/util/WorldUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cola-Core/src/top/whitecola/wrapper/TpRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nettyawa/src/META-INF/MANIFEST.MF" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugin.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/struct/WhiteListConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="71" column="39" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Confirm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1924">
+              <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/WhiteListPlugin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3068">
+              <caret line="150" column="13" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/SimpleConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1248">
+              <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2584#2585#0" expanded="true" />
+                <element signature="e#2601#2602#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Reload.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/CommandUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/IChildCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding>
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/DedicatedMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/TabUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>load</find>
+      <find>getConfig</find>
+      <find>debug</find>
+      <find>Thread</find>
+      <find>COMPA</find>
+      <find>stop</find>
+      <find>updateOnlineModeinWhiteListJson</find>
+      <find>convertOnlineOrOfflineJsonMode</find>
+      <find>getCommand(</find>
+      <find>setInv</find>
+      <find>wl</find>
+      <find>isInWhiteList</find>
+      <find>Bukkit.getOnlineMode()</find>
+      <find>Bukkit.getOnlineMode</find>
+      <find>getOnlineMode()</find>
+      <find>getonlinemo</find>
+      <find>zh</find>
+      <find>getOnlineMode</find>
+      <find>你</find>
+      <find>mess</find>
+      <find>massively</find>
+      <find>inform</find>
+      <find>join</find>
+      <find>ItemBuilder</find>
+      <find>PlayerL</find>
+      <find>PlayerLogin</find>
+      <find>tele</find>
+      <find>onen</find>
+      <find>tab</find>
+      <find>add</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/QQUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/GUIUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/gui/ListGui.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Listcom.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/top/dsbbs2/whitelist/gui/IGUIWrapper.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/top/dsbbs2/whitelist/gui/WhiteListGUI.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/DedicatedMethods.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/gui/IGUIWrapper.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/items/ItemWrapper.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/ListUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/struct/UUIDClass.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/UrlUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/MojangUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/IChildCommand.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Debug.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/List.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Help.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/struct/UUIDJson.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/MojangJson.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/MojangJsonList.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/SimpleConfig.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/Reflection.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/TinyProtocol.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/BanUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/CommandUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/CodeUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/FileUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/common/file/FileUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/common/DB.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/common/lambda/INoThrowsRunnable.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/ServerUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Import.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Get.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/NoNameRemove.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/QBan.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/QRemove.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Remove.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/ItemUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/gui/ItemBuilder.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/gui/WhiteListGUI.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/MsgUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Add.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/struct/WhiteListConfig.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/listeners/PlayerListener.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/EventUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/PlayerUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Confirm.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/TabUtil.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/WhiteListPlugin.java" />
+        <option value="$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Reload.java" />
+        <option value="$PROJECT_DIR$/plugin.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="845" />
+    <option name="y" value="20" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BukkitWhiteList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BukkitWhiteList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BukkitWhiteList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BukkitWhiteList" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BukkitWhiteList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BukkitWhiteList" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BukkitWhiteList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BukkitWhiteList" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="BukkitWhiteList_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BukkitWhiteList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BukkitWhiteList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BukkitWhiteList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BukkitWhiteList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsbbs2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BukkitWhiteList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BukkitWhiteList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsbbs2" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BukkitWhiteList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BukkitWhiteList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsbbs2" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BukkitWhiteList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BukkitWhiteList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsbbs2" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BukkitWhiteList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BukkitWhiteList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsbbs2" type="462c0819:PsiDirectoryNode" />
+              <item name="whitelist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BukkitWhiteList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BukkitWhiteList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsbbs2" type="462c0819:PsiDirectoryNode" />
+              <item name="whitelist" type="462c0819:PsiDirectoryNode" />
+              <item name="tinyprotocol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BukkitWhiteList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BukkitWhiteList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsbbs2" type="462c0819:PsiDirectoryNode" />
+              <item name="whitelist" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BukkitWhiteList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BukkitWhiteList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsbbs2" type="462c0819:PsiDirectoryNode" />
+              <item name="whitelist" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BukkitWhiteList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BukkitWhiteList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsbbs2" type="462c0819:PsiDirectoryNode" />
+              <item name="whitelist" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="struct" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BukkitWhiteList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BukkitWhiteList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsbbs2" type="462c0819:PsiDirectoryNode" />
+              <item name="whitelist" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="bukkitwhitelist" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/top/dsbbs2/common/lambda" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.dsbbs2.whitelist.commands" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\编程用\阿瓦\BukkitWhiteList\src\top\dsbbs2\common\lambda" />
+      <recent name="D:\编程用\阿瓦\BukkitWhiteList\src\top\dsbbs2\common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="debug plugin" type="Remote">
+      <module name="BukkitWhiteList" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="574b876c-f2d0-4f4a-8dd5-bcf9b3be3b85" name="Default Changelist" comment="" />
+      <created>1577614104520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577614104520</updated>
+      <workItem from="1577614107615" duration="5889000" />
+      <workItem from="1577620991772" duration="3427000" />
+      <workItem from="1577628850560" duration="35000" />
+      <workItem from="1577680836098" duration="3931000" />
+      <workItem from="1577697710353" duration="5014000" />
+      <workItem from="1577711497659" duration="601000" />
+      <workItem from="1577712176906" duration="2253000" />
+      <workItem from="1577766425615" duration="6574000" />
+      <workItem from="1577785885267" duration="12270000" />
+      <workItem from="1577799024165" duration="5043000" />
+      <workItem from="1577848616335" duration="1413000" />
+      <workItem from="1577854588055" duration="673000" />
+      <workItem from="1577860785783" duration="2194000" />
+      <workItem from="1578034498398" duration="662000" />
+      <workItem from="1582541994514" duration="3495000" />
+      <workItem from="1582860414378" duration="1716000" />
+      <workItem from="1583552733146" duration="13223000" />
+      <workItem from="1583568575301" duration="69000" />
+      <workItem from="1583570588690" duration="2574000" />
+      <workItem from="1583651962608" duration="15109000" />
+      <workItem from="1583667612535" duration="4260000" />
+      <workItem from="1583726715328" duration="28732000" />
+      <workItem from="1583815032704" duration="1192000" />
+      <workItem from="1583901448834" duration="30688000" />
+      <workItem from="1583942619090" duration="10022000" />
+      <workItem from="1584011022626" duration="4594000" />
+      <workItem from="1584008774881" duration="6709000" />
+      <workItem from="1584277190072" duration="9888000" />
+      <workItem from="1584365833326" duration="11655000" />
+      <workItem from="1584431154464" duration="1208000" />
+      <workItem from="1584431939005" duration="1858000" />
+      <workItem from="1584536765968" duration="4844000" />
+      <workItem from="1584692541852" duration="2295000" />
+      <workItem from="1584856824600" duration="9065000" />
+      <workItem from="1584885907963" duration="1340000" />
+      <workItem from="1584933322237" duration="589000" />
+      <workItem from="1584955508417" duration="2353000" />
+      <workItem from="1584954590967" duration="298000" />
+      <workItem from="1584955483647" duration="55000" />
+      <workItem from="1584955571139" duration="1312000" />
+      <workItem from="1585022972195" duration="274000" />
+      <workItem from="1585123361510" duration="5206000" />
+      <workItem from="1585133571737" duration="1725000" />
+      <workItem from="1585297986131" duration="668000" />
+      <workItem from="1585475524120" duration="14000" />
+      <workItem from="1585475560981" duration="31000" />
+      <workItem from="1585884597762" duration="2787000" />
+      <workItem from="1586318749743" duration="3130000" />
+      <workItem from="1586321255980" duration="851000" />
+      <workItem from="1586337735084" duration="1238000" />
+      <workItem from="1586337116065" duration="1945000" />
+      <workItem from="1586348517622" duration="270000" />
+      <workItem from="1586615935738" duration="991000" />
+      <workItem from="1587588112714" duration="661000" />
+      <workItem from="1587760769355" duration="525000" />
+      <workItem from="1587843305578" duration="1152000" />
+      <workItem from="1587846116707" duration="2404000" />
+      <workItem from="1587958638338" duration="1022000" />
+      <workItem from="1588061546512" duration="95000" />
+      <workItem from="1588133933591" duration="3728000" />
+      <workItem from="1588160352089" duration="742000" />
+      <workItem from="1588821543274" duration="3612000" />
+      <workItem from="1590894209067" duration="2093000" />
+      <workItem from="1590899779918" duration="637000" />
+      <workItem from="1591415606522" duration="6250000" />
+      <workItem from="1592021325118" duration="1635000" />
+      <workItem from="1592545264461" duration="506000" />
+      <workItem from="1593268852091" duration="2076000" />
+      <workItem from="1593354655228" duration="4436000" />
+      <workItem from="1593359528864" duration="2332000" />
+      <workItem from="1593613107831" duration="710000" />
+      <workItem from="1594034582974" duration="4757000" />
+      <workItem from="1594125012064" duration="2483000" />
+      <workItem from="1594191731558" duration="7037000" />
+      <workItem from="1594628370780" duration="6663000" />
+      <workItem from="1594629762642" duration="816000" />
+      <workItem from="1595154301190" duration="3456000" />
+      <workItem from="1595399331621" duration="3201000" />
+      <workItem from="1595502157770" duration="6099000" />
+      <workItem from="1595775962373" duration="2725000" />
+      <workItem from="1595832697381" duration="1792000" />
+      <workItem from="1595931797947" duration="1235000" />
+      <workItem from="1596378210869" duration="4000" />
+      <workItem from="1596378235385" duration="2063000" />
+      <workItem from="1596442549104" duration="5558000" />
+      <workItem from="1596523538081" duration="1927000" />
+      <workItem from="1596542858837" duration="594000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="323278000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2600536" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.19971672" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.41218132" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.31586403" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.16997167" />
+      <window_info anchor="bottom" id="Statistic" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="SonarLint" order="14" weight="0.3286119" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Word Book" order="9" side_tool="true" />
+      <window_info anchor="right" id="Key Promoter X" order="10" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/MojangJsonList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Minecraft Server/akarin-1.12.2.jar!/org/bukkit/Server.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="176" column="12" selection-start-line="176" selection-start-column="12" selection-end-line="176" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Minecraft Server/akarin-1.12.2.jar!/org/spigotmc/AsyncCatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/MojangUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Debug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1118">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Help.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/CodeUtil.java" />
+    <entry file="jar://D:/Minecraft Server/akarin-1.12.2.jar!/org/bukkit/scheduler/BukkitScheduler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Minecraft Server/akarin-1.12.2.jar!/org/spigotmc/WatchdogThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="513" column="11" selection-start-line="513" selection-start-column="11" selection-end-line="513" selection-end-column="11" />
+          <folding>
+            <element signature="e#18781#18782#0" expanded="true" />
+            <element signature="e#18834#18835#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/common/file/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/common/lambda/INoReturnGenericAdvancedRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/common/lambda/INoThrowsRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/BanUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/QRemove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Remove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Get.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/QBan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/VectorUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="368" column="19" selection-start-line="368" selection-start-column="19" selection-end-line="368" selection-end-column="19" />
+          <folding>
+            <element signature="e#13546#13547#0" expanded="true" />
+            <element signature="e#13587#13588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+          <folding>
+            <element signature="e#5748#5749#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/gui/ItemBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1274">
+          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/gui/IGUIWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BukkitWhiteList.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/MsgUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/ItemUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/common/JVMUnsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/listeners/PlayerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2964">
+          <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/EventUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/Reflection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/com/comphenix/tinyprotocol/TinyProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8814#8815#0" expanded="true" />
+            <element signature="e#8834#8835#0" expanded="true" />
+            <element signature="e#9355#9356#0" expanded="true" />
+            <element signature="e#9375#9376#0" expanded="true" />
+            <element signature="e#9679#9680#0" expanded="true" />
+            <element signature="e#9724#9725#0" expanded="true" />
+            <element signature="e#10039#10040#0" expanded="true" />
+            <element signature="e#10086#10087#0" expanded="true" />
+            <element signature="e#10452#10453#0" expanded="true" />
+            <element signature="e#10500#10501#0" expanded="true" />
+            <element signature="e#11683#11684#0" expanded="true" />
+            <element signature="e#11747#11748#0" expanded="true" />
+            <element signature="e#11985#11986#0" expanded="true" />
+            <element signature="e#12022#12023#0" expanded="true" />
+            <element signature="e#13482#13483#0" expanded="true" />
+            <element signature="e#13524#13525#0" expanded="true" />
+            <element signature="e#14414#14415#0" expanded="true" />
+            <element signature="e#14459#14460#0" expanded="true" />
+            <element signature="e#14669#14670#0" expanded="true" />
+            <element signature="e#14726#14727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/common/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding>
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1658#1659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/gui/WhiteListGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1970#1971#0" expanded="true" />
+            <element signature="e#2027#2028#0" expanded="true" />
+            <element signature="e#2782#2783#0" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/common/lambda/IAdvancedRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/PlayerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9594">
+          <caret line="391" column="34" selection-start-line="391" selection-start-column="34" selection-end-line="391" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/NoNameRemove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/common/lambda/FinallyCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Import.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1118">
+          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/ServerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Confirm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1924">
+          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/WhiteListPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3068">
+          <caret line="150" column="13" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/SimpleConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2584#2585#0" expanded="true" />
+            <element signature="e#2601#2602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/Reload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/CommandUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/IChildCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/commands/DedicatedMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/util/TabUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/dsbbs2/whitelist/config/struct/WhiteListConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="71" column="39" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>BukkitWhiteList:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BukkitWhiteList</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>akarin-1.12.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

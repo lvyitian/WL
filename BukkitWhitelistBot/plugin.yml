@@ -1,0 +1,5 @@
+name: BukkitWhitelistBot
+author: [white_cola,lvxinlei,Chloe__owo]
+version: 1.0
+main: top.whitecola.wlbot.BukkitWhitelistBot
+depend: [MiraiBukkit,WhiteList]
